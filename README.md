@@ -1,6 +1,6 @@
 # qimen4kotlin
 
-Kotlin 奇门遁甲排盘 SDK，JAR 内置经过版本锁定的排盘引擎。要求 Java 11+ 和 Node.js 20+。
+Kotlin/JVM 原生奇门遁甲排盘 SDK，历法使用 `tyme4j`。要求 Java 11+，运行时不依赖 Node.js 或其他语言。
 
 ```kotlin
 val input = mapOf<String, Any>(
